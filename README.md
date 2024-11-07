@@ -121,7 +121,7 @@ Contributions are welcome! If you have suggestions, bug reports, or improvements
 2. **Clone Your Fork**
 
    ```bash
-   git clone https://github.com/yourusername/jwt-secret-cli.git
+   git clone https://github.com/LayerDynamics/jwt-secret-cli.git
    cd jwt-secret-cli
    ```
 
