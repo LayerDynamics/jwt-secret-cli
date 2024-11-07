@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+/* global process, console */
+
 // bin/index.js
 
 const { program } = require('commander');
@@ -29,8 +31,10 @@ try {
         secret = generateSecret(length);
     }
 
+    // eslint-disable-next-line no-console
     console.log(secret);
 } catch (error) {
+    // eslint-disable-next-line no-console
     console.error(`Error: ${error.message}`);
     process.exit(1);
 }
